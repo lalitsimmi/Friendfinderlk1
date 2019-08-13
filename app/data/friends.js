@@ -1,58 +1,58 @@
 // ===============================================================================
 // DATA
-// Below data will hold all of the reserved tables.
-// Initially we just set it equal to a "dummy" customer.
-// But you could have it be an empty array as well.
-// ===============================================================================
+
 var friends = [{
-    "name": "Homer",
-    "photo": "http://images.clipartpanda.com/simpson-clip-art-homer.simpson.02.jpg",
-    "scores": [
-        1,
-        5,
-        4,
-        5,
-        3,
-        3,
-        3,
-        2,
-        3,
-        5
-    ]
+    "name": "TEST1",
+    "photo": "",
+    "scores": [1, 1, 2, 5, 4, 2, 3, 2, 3, 5]
 },
 {
-    "name": "Morticia Addams",
-    "photo": "http://sonailicious.com/halloween-makeup-ideas-movie-characters/18_morticia_addams/",
-    "scores": [
-        5,
-        1,
-        5,
-        1,
-        5,
-        4,
-        5,
-        5,
-        1,
-        1
-    ]
+    "name": "TEST2",
+    "photo": "",
+    "scores": [2, 2, 3, 5, 4, 2, 3, 2, 3, 5]
 },
 {
-    "name": "Gollum",
-    "photo": "http://casenightmaregreen.blogspot.com/2012/12/pursuing-precious-grad-school.html",
-    "scores": [
-        5,
-        1,
-        2,
-        4,
-        1,
-        5,
-        2,
-        1,
-        1,
-        1
-    ]
+    "name": "TEST3",
+    "photo": "",
+    "scores": [4, 5, 2, 5, 4, 2, 3, 2, 3, 5]
 },
-] // closes array
+{
+    "name": "TEST4",
+    "photo": "",
+    "scores": [5, 5, 2, 5, 4, 2, 3, 2, 3, 5]
+},
+{
+    "name": "TEST5",
+    "photo": "",
+    "scores": [5, 5, 2, 5, 4, 2, 3, 2, 3, 5]
+},
+{
+    "name": "TEST6",
+    "photo": "",
+    "scores": [5, 5, 2, 5, 4, 2, 3, 2, 3, 5]
+},
+{
+    "name": "TEST7",
+    "photo": "",
+    "scores": [5, 5, 2, 5, 4, 2, 3, 2, 3, 5]
+},
+{
+    "name": "TEST8",
+    "photo": "",
+    "scores": [5, 5, 2, 5, 4, 2, 3, 2, 3, 5]
+},
+{
+    "name": "TEST9",
+    "photo": "",
+    "scores": [5, 5, 2, 5, 4, 2, 3, 2, 3, 5]
+},
+{
+    "name": "TEST10",
+    "photo": "",
+    "scores": [5, 5, 2, 5, 4, 2, 3, 2, 3, 5]
+}];
+
+// closes array
 
 // Note how we export the array. This makes it accessible to other files using require.
 module.exports = friends;
